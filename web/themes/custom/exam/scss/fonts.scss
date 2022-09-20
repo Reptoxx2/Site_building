@@ -1,0 +1,23 @@
+@font-face
+{
+  font-family: "avenir";
+  src: url("../src/fonts/Avenir35Light.woff") format('woff'),
+  url("../src/fonts/Avenir35Light.woff2") format('woff2');
+}
+@font-face {
+  font-family: "nexaslab";
+  src: url("../src/fonts/NexaSlab-Regular.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "nexaslab";
+  src: url("../src/fonts/NexaSlab-Light.woff") format('woff'),
+  url("../src/fonts/NexaSlab-Light.woff2") format('woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family: "nexaslab";
+  src: url("../src/fonts/NexaSlab-Bold.woff") format('woff'),
+  url("../src/fonts/NexaSlab-Bold.woff2") format('woff2');
+  font-weight: 700;
+}

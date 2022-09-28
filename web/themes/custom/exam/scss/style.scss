@@ -52,7 +52,7 @@ body
     top: 50%;
     content: "";
     display: inline-block;
-    width: 40%;
+    width: 35%;
     height: 1px;
     background-color: $grey;
   }
@@ -62,7 +62,7 @@ body
     top: 50%;
     content: "";
     display: block;
-    width: 40%;
+    width: 35%;
     height: 1px;
     background-color: $grey;
   }
@@ -245,411 +245,415 @@ body
     }
   }
 }
-#block-about
-{
-  margin-top: 70px;
-  margin-bottom: 100px;
-  padding: 20px 0px;
-  border-top: 5px solid black;
-  border-bottom: 5px solid $blue;
-  display: flex;
-  gap: 10px;
-  flex-direction: row;
-  justify-content: space-between;
-  &:before{
-    content: unset;
-  }
-  &:after{
-    content: unset;
-  }
-  text-transform: uppercase;
-  font-size: 20px;
-  .field--name-field-about-title{
-    span{
-      color: black;
-      font-size: 30px;
-      font-weight: 700;
-    }
-  }
-  .field--name-field-about-description{
-    align-self: center;
-    color: $grey;
-  }
-  .field--name-field-about-link{
-    color: #fff;
-    display: flex;
-    text-align: center;
-    background: $blue;
-    padding: 0px 10px;
-    a{
-      color: #fff;
-      font-size: 15px;
-      align-self: center;
-    }
-  }
-}
-#block-servicesnode{
-  .block-title
-  {
-    &:after{
-      height: 2px;
-    }
-    &:before
+.layout--onecol{
+  .layout__region--content{
+    .block-block-content8be4f345-3109-42d6-a4dd-142cdbaafe4c
     {
-      height: 2px;
-    }
-  }
-  margin-bottom: 110px;
-  .field--name-field-paragraph-item
-  {
-    display: flex;
-    gap: 60px;
-    .field--item
-    {
+      margin-top: 70px;
+      margin-bottom: 100px;
+      padding: 20px 0px;
+      border-top: 5px solid black;
+      border-bottom: 5px solid $blue;
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+      justify-content: space-between;
+      &:before{
+        content: unset;
+      }
+      &:after{
+        content: unset;
+      }
       text-transform: uppercase;
-      .paragraph--type--services-item{
+      font-size: 20px;
+      .field--name-field-about-title{
+        span{
+          color: black;
+          font-size: 30px;
+          font-weight: 700;
+        }
+      }
+      .field--name-field-about-description{
+        align-self: center;
+        color: $grey;
+      }
+      .field--name-field-about-link{
+        color: #fff;
         display: flex;
-        flex-direction: column;
-        .field--name-field-img
-        {
-          align-self: center;
-          margin-bottom: 40px;
-        }
-        .field--name-field-title
-        {
-          align-self: center;
-          font-size: 20px;
-          font-weight: bold;
-          margin-bottom: 20px;
-        }
-        .field--name-field-description{
-          color: $grey;
-          font-size: 14px;
-          text-align: center;
-          margin-bottom: 30px;
-        }
-        .field--name-field-link{
-          align-self: center;
-          padding: 10px;
-          color: #fff;
-          font-weight: bold;
-          background: $blue;
-          a{
-            color: #fff;
-          }
-        }
-      }
-    }
-  }
-}
-#block-views-block-projects-block-1{
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    background: url("../src/img/diagonal-lines-pattern-background-white-background-with-gray-diagonal-lines-vector-eps-10_532800-309.png");
-    padding-top: 70px;
-    padding-bottom: 130px;
-  margin-bottom: 100px;
-  .view-content
-  {
-    padding-bottom: 50px;
-    max-width: $container_s;
-    margin: 0 auto;
-    display: flex;
-    gap: 30px;
-    .views-row{
-      text-align: center;
-      background: #fff;
-      border-bottom: 1px solid #000;
-      text-transform: uppercase;
-      .views-field-field-img{
-        margin-bottom: 40px;
-      }
-      .views-field-title{
-        font-size: 20px;
-        margin-bottom: 20px;
-        a{
-          color: black;
-        }
-      }
-      .views-field-field-term
-      {
-        margin-bottom: 20px;
-        font-size: 15px;
-      }
-      .views-field-view-node{
-        margin-bottom: 12px;
-        .field-content
-        {
-          display: inline-block;
-          color: #fff;
-          padding: 10px;
-          background: #373645;
-          a{
-            color: #fff;
-          }
-        }
-      }
-    }
-  }
-  .pager-nav
-  {
-    .js-pager__items
-    {
-      .active{
-        a{
-          background-color: #dddcdd;
-        }
-      }
-      .pager__item
-      {
-        a{
-          margin-right: 2px;
-          padding: 4px;
-          font-family: Arial;
-          width: 30px;
-          height: 30px;
-          color: black;
-          border-radius: 50%;
-          border: unset;
-        }
-      }
-    }
-  }
-}
-#block-blockteam
-{
-  .field--name-field-paragraph-item{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-
-    .field--item{
-      .paragraph--type--team-item
-      {
-        text-transform: uppercase;
         text-align: center;
-        .field--name-field-photo
-        {
-          margin-bottom: 40px;
-          img{
-            margin: 0 auto;
-          }
-        }
-        .field--name-field-name{
-          font-size: 19px;
-          font-weight: 700;
-          text-align: center;
-          margin-bottom: 10px;
-        }
-        .field--name-field-position{
-          font-size: 10px;
-          margin-bottom: 20px;
-        }
-        .field--name-field-team-link{
-          display: inline-block;
+        background: $blue;
+        padding: 0px 10px;
+        a{
           color: #fff;
-          font-weight: 700;
-          padding: 10px;
-          background-color: #373645;
-          margin-bottom: 20px;
-          a{
-            color: #fff;
-          }
-        }
-        .field--name-field-social-link
-        {
-          padding: 0 30px;
+          font-size: 15px;
+          align-self: center;
         }
       }
     }
-  }
-  margin-bottom: 200px;
-}
-#block-views-block-news-block-1{
-  margin-bottom: 30px;
-  #views-exposed-form-news-block-1
-  {
-    padding: 10px 0px;
-    .form--inline
-    {
-      width: 100%;
-      max-width: 350px;
-      background: #f5f5f5;
-      //max-width: fit-content;
-      display: flex;
-      justify-content: flex-start;
-      gap: 5px;
-      padding: 5px 0px;
-      .js-form-type-textfield
+    .block-block-contentc06a3164-2121-4501-b96e-dce718098c28{
+      .block-title
       {
-        width: 100%;
-        background: unset;
-        margin: 0;
-        input{
-          width: 100%;
+        &:after{
+          height: 2px;
         }
-      }
-      .js-form-wrapper{
-        background: unset;
-        max-width: fit-content;
-        margin: 0;
-      }
-    }
-  }
-  .block-title{
-    margin-bottom: 30px;
-  }
-  .form-group{
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    background: url("../src/img/diagonal-lines-pattern-background-white-background-with-gray-diagonal-lines-vector-eps-10_532800-309.png");
-    .view-display-id-block_1
-    {
-      .form-group{
-        background: unset;
-      }
-    }
-  }
-  .view-filters{
-    max-width: $container_s;
-    margin: 0 auto;
-
-  }
-  .view-content
-  {
-    padding: 0px 0px 75px 0px;
-    max-width: $container_s;
-    margin: 0 auto;
-    gap: 30px;
-    display: flex;
-    .views-row{
-      padding:20px 20px 20px 0px;
-      background: #fff;
-      display: flex;
-      max-width: 50%;
-      .teaser{
-        h2 {
-          display: none;
-        }
-      }
-      .content{
-        display: flex;
-        .layout--onecol
+        &:before
         {
-          flex: 0 1 10%;
+          height: 2px;
+        }
+      }
+      margin-bottom: 110px;
+      .field--name-field-paragraph-item
+      {
+        display: flex;
+        gap: 60px;
+        .field--item
+        {
           text-transform: uppercase;
-          .layout__region--content{
+          .paragraph--type--services-item{
             display: flex;
             flex-direction: column;
-            font-weight: bold;
-          }
-          .block-field-blocknodenewfield-date-month{
-            align-self: center;
-            font-size: 20px;
-            color: black;
-          }
-          .block-field-blocknodenewfield-date-day{
-            align-self: center;
-            font-size: 32px;
-            color: $blue;
-          }
-          .block-field-blocknodenewfield-date-year{
-            align-self: center;
-            font-size: 10px;
-            color: $grey;
+            .field--name-field-img
+            {
+              align-self: center;
+              margin-bottom: 40px;
+            }
+            .field--name-field-title
+            {
+              align-self: center;
+              font-size: 20px;
+              font-weight: bold;
+              margin-bottom: 20px;
+            }
+            .field--name-field-description{
+              color: $grey;
+              font-size: 14px;
+              text-align: center;
+              margin-bottom: 30px;
+            }
+            .field--name-field-link{
+              align-self: center;
+              padding: 10px;
+              color: #fff;
+              font-weight: bold;
+              background: $blue;
+              a{
+                color: #fff;
+              }
+            }
           }
         }
-        .layout--twocol-section
+      }
+    }
+    .block-views-blockprojects-block-1{
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      background: url("../src/img/diagonal-lines-pattern-background-white-background-with-gray-diagonal-lines-vector-eps-10_532800-309.png");
+      padding-top: 70px;
+      padding-bottom: 130px;
+      margin-bottom: 100px;
+      .view-content
+      {
+        padding-bottom: 50px;
+        max-width: $container_s;
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+        .views-row{
+          text-align: center;
+          background: #fff;
+          border-bottom: 1px solid #000;
+          text-transform: uppercase;
+          .views-field-field-img{
+            margin-bottom: 40px;
+          }
+          .views-field-title{
+            font-size: 20px;
+            margin-bottom: 20px;
+            a{
+              color: black;
+            }
+          }
+          .views-field-field-term
+          {
+            margin-bottom: 20px;
+            font-size: 15px;
+          }
+          .views-field-view-node{
+            margin-bottom: 12px;
+            .field-content
+            {
+              display: inline-block;
+              color: #fff;
+              padding: 10px;
+              background: #373645;
+              a{
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .pager-nav
+      {
+        .js-pager__items
+        {
+          .active{
+            a{
+              background-color: #dddcdd;
+            }
+          }
+          .pager__item
+          {
+            a{
+              margin-right: 2px;
+              padding: 4px;
+              font-family: Arial;
+              width: 30px;
+              height: 30px;
+              color: black;
+              border-radius: 50%;
+              border: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+  .block-block-contente88d658e-a682-4ce0-8dac-7019958dedfe
+  {
+    .field--name-field-paragraph-item{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+
+      .field--item{
+        .paragraph--type--team-item
         {
           text-transform: uppercase;
-          flex: 0 1 90%;
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-          .layout__region{
-            flex: unset;
-          }
-          .layout__region--first
+          text-align: center;
+          .field--name-field-photo
           {
-            border-left: 1px solid $grey;
-            padding-left: 20px;
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            .block-field-blocknodenewfield-new-img{
-              margin-right: 10px;
+            margin-bottom: 40px;
+            img{
+              margin: 0 auto;
             }
-            .block-field-blocknodenewfield-new-writer
-            {
+          }
+          .field--name-field-name{
+            font-size: 19px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+          .field--name-field-position{
+            font-size: 10px;
+            margin-bottom: 20px;
+          }
+          .field--name-field-team-link{
+            display: inline-block;
+            color: #fff;
+            font-weight: 700;
+            padding: 10px;
+            background-color: #373645;
+            margin-bottom: 20px;
+            a{
+              color: #fff;
+            }
+          }
+          .field--name-field-social-link
+          {
+            padding: 0 30px;
+          }
+        }
+      }
+    }
+    margin-bottom: 200px;
+  }
+  .block-views-blocknews-block-1{
+    margin-bottom: 30px;
+    #views-exposed-form-news-block-1
+    {
+      padding: 10px 0px;
+      .form--inline
+      {
+        width: 100%;
+        max-width: 350px;
+        background: #f5f5f5;
+        //max-width: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 5px 0px;
+        .js-form-type-textfield
+        {
+          width: 100%;
+          background: unset;
+          margin: 0;
+          input{
+            width: 100%;
+          }
+        }
+        .js-form-wrapper{
+          background: unset;
+          max-width: fit-content;
+          margin: 0;
+        }
+      }
+    }
+    .block-title{
+      margin-bottom: 30px;
+    }
+    .form-group{
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      background: url("../src/img/diagonal-lines-pattern-background-white-background-with-gray-diagonal-lines-vector-eps-10_532800-309.png");
+      .view-display-id-block_1
+      {
+        .form-group{
+          background: unset;
+        }
+      }
+    }
+    .view-filters{
+      max-width: $container_s;
+      margin: 0 auto;
+
+    }
+    .view-content
+    {
+      padding: 0px 0px 75px 0px;
+      max-width: $container_s;
+      margin: 0 auto;
+      gap: 30px;
+      display: flex;
+      .views-row{
+        padding:20px 20px 20px 0px;
+        background: #fff;
+        display: flex;
+        max-width: 50%;
+        .teaser{
+          h2 {
+            display: none;
+          }
+        }
+        .content{
+          display: flex;
+          .layout--onecol
+          {
+            flex: 0 1 10%;
+            text-transform: uppercase;
+            .layout__region--content{
               display: flex;
-              &:before{
-                content: "Writer";
-                color: $grey;
-                margin-right: 5px;
+              flex-direction: column;
+              font-weight: bold;
+            }
+            .block-field-blocknodenewfield-date-month{
+              align-self: center;
+              font-size: 20px;
+              color: black;
+            }
+            .block-field-blocknodenewfield-date-day{
+              align-self: center;
+              font-size: 32px;
+              color: $blue;
+            }
+            .block-field-blocknodenewfield-date-year{
+              align-self: center;
+              font-size: 10px;
+              color: $grey;
+            }
+          }
+          .layout--twocol-section
+          {
+            text-transform: uppercase;
+            flex: 0 1 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .layout__region{
+              flex: unset;
+            }
+            .layout__region--first
+            {
+              border-left: 1px solid $grey;
+              padding-left: 20px;
+              display: flex;
+              flex-direction: row;
+              position: relative;
+              .block-field-blocknodenewfield-new-img{
+                margin-right: 10px;
               }
-              &:after{
-                content: "/";
-                padding: 0px 3px;
+              .block-field-blocknodenewfield-new-writer
+              {
+                display: flex;
+                &:before{
+                  content: "Writer";
+                  color: $grey;
+                  margin-right: 5px;
+                }
+                &:after{
+                  content: "/";
+                  padding: 0px 3px;
+                }
+              }
+              .block-field-blocknodenewcreated{
+                margin-left: auto;
+                color: $grey;
+                span{
+                  span{
+                    &:after
+                    {
+                      content: " ";
+                    }
+                  }
+                }
               }
             }
-            .block-field-blocknodenewcreated{
-              margin-left: auto;
-              color: $grey;
-              span{
-                span{
-                  &:after
-                  {
-                    content: " ";
+            .layout__region--second{
+              border-left: 1px solid $grey;
+              padding-left: 20px;
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              .block-field-blocknodenewfield-new-title{
+                font-size: 20px;
+                font-weight: bold;
+              }
+              .block-field-blocknodenewfield-new-body{
+
+                font-size: 12px;
+              }
+              .block-extra-field-blocknodenewlinks{
+                display: inline-block;
+                align-self: flex-end;
+                .node-readmore{
+                  a{
+                    background: #373645;
+                    color: #fff;
+                    font-weight: bold;
+                    padding: 10px;
                   }
                 }
               }
             }
           }
-          .layout__region--second{
-            border-left: 1px solid $grey;
-            padding-left: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            .block-field-blocknodenewfield-new-title{
-              font-size: 20px;
-              font-weight: bold;
-            }
-            .block-field-blocknodenewfield-new-body{
-
-              font-size: 12px;
-            }
-            .block-extra-field-blocknodenewlinks{
-              display: inline-block;
-              align-self: flex-end;
-              .node-readmore{
-                a{
-                  background: #373645;
-                  color: #fff;
-                  font-weight: bold;
-                  padding: 10px;
-                }
-              }
-            }
-          }
         }
       }
     }
   }
-}
-#block-views-block-clients-block-1
-{
-  .block-title{
-
-  }
-  margin-bottom: 185px;
-  .slick-track
+  .block-views-blockclients-block-1
   {
-    display: flex;
-    gap: 50px;
-    .slick__slide
+    .block-title{
+
+    }
+    margin-bottom: 185px;
+    .slick-track
     {
-      align-self: center;
+      display: flex;
+      gap: 50px;
+      .slick__slide
+      {
+        align-self: center;
+      }
     }
   }
 }
@@ -687,7 +691,6 @@ body
     }
   }
 }
-// apart content
 // about
 .field--type-text-with-summary
 {
@@ -1002,10 +1005,6 @@ body
     }
   }
 }
-//team page
-{
-
-}
 ////////////////////////////////////////////////////////////
 @media (min-width: 1024px) and (max-width: 1280px){
   .block-title{
@@ -1032,7 +1031,7 @@ body
       padding: 0;
     }
   }
-  #block-about
+  .block-block-content8be4f345-3109-42d6-a4dd-142cdbaafe4c
   {
     gap: 10px;
     .field--name-field-about-link
@@ -1040,10 +1039,10 @@ body
 
     }
   }
-  #block-views-block-projects-block-1{
+  .block-views-blockprojects-block-1{
     padding: 0px 20px;
   }
-  #block-views-block-news-block-1
+  .block-views-blocknews-block-1
   {
     .form-group
     {
@@ -1169,18 +1168,18 @@ body
   {
 
   }
-  #block-about{
+  #block-block-content8be4f345-3109-42d6-a4dd-142cdbaafe4c{
     text-align: center;
   }
-  #block-servicesnode{
+  .block-block-contentc06a3164-2121-4501-b96e-dce718098c28{
     .field--item{
       text-align: center;
     }
   }
-  #block-views-block-projects-block-1{
+  .block-views-blockprojects-block-1{
     padding: 0 $pad_adapt;
   }
-  #block-views-block-news-block-1{
+  .block-views-blocknews-block-1{
     .form-group
     {
       padding: 0 $pad_adapt;
@@ -1294,7 +1293,7 @@ body
       }
     }
   }
-  #block-about{
+  .block-block-content8be4f345-3109-42d6-a4dd-142cdbaafe4c{
     text-align: center;
     flex-direction: column;
     .field--name-field-about-link
@@ -1304,7 +1303,7 @@ body
       width: fit-content;
     }
   }
-  #block-servicesnode{
+  .block-block-contentc06a3164-2121-4501-b96e-dce718098c28{
       .field--name-field-block-item
       {
         .field--name-field-paragraph-item{
@@ -1312,7 +1311,7 @@ body
         }
       }
   }
-  #block-views-block-projects-block-1{
+  .block-views-blockprojects-block-1{
     padding: 0 $pad_adapt;
     .view-content{
       flex-direction: column;
@@ -1325,7 +1324,7 @@ body
     }
     }
   }
-  #block-blockteam{
+  .block-block-contente88d658e-a682-4ce0-8dac-7019958dedfe{
     .field--name-field-paragraph-item{
       flex-direction: column;
       .field--item{
@@ -1337,7 +1336,7 @@ body
       }
     }
   }
-  #block-views-block-news-block-1{
+  .block-views-blocknews-block-1{
     .form-group
     {
       padding: 0 5px;

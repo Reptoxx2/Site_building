@@ -1,0 +1,112 @@
+//Contact
+#webform-submission-contact-us-add-form{
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0px;
+
+  #edit-title{
+    margin-bottom: 50px;
+    display: flex;
+    h3{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 20px;
+      width: fit-content;
+      margin: 0 auto;
+      position: relative;
+      &:after{
+        content: "";
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -15px;
+        position: absolute;
+        width: 55px;
+        height: 4px;
+        background-color: $grey;
+      }
+    }
+  }
+  #edit-flexbox{
+    .webform-flex--1{
+      .webform-flex--container{
+        height: 100%;
+      }
+      #edit-content-flex1{
+        gap: 30px;
+        height: 100%;
+        flex-direction: column;
+        .webform-flex--1{
+          max-height: 50px;
+          .form-item{
+            input, textarea{
+              height: 100%;
+              max-height: 50px;
+              font-size: 15px;
+              text-transform: uppercase;
+              border-radius: 0px;
+              padding: 20px 10px;
+            }
+            #edit-message
+            {
+              height: 100%;
+              resize: none;
+            }
+          }
+          &:nth-child(4)
+          {
+            display: flex;
+            align-self: flex-end;
+            height: 100%;
+            max-height: unset;
+            .form-item{
+              height: 100%;
+              .form-textarea-wrapper{
+                height: 100%;
+                textarea{
+                  height: 100%;
+                  max-height: unset;
+                }
+              }
+            }
+          }
+        }
+      }
+      #edit-flexbox2{
+        height: 100%;
+        gap: 40px;
+        flex-direction: column;
+        .webform-flex--1{
+          #edit-markup{
+            p{
+              font-size: 20px;
+              line-height: 30px;
+              span{
+                display: block;
+                text-transform: uppercase;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #edit-actions{
+    margin-top: 15px;
+    padding-left: 7px;
+    #edit-actions-submit{
+      padding: 15px 30px;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      background-color: #e03114;
+      border: none;
+    }
+  }
+}
+//Contact confirm
+.webform-confirmation{
+  padding: 50px 0px;
+  font-size: 20px;
+}

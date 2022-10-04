@@ -1,0 +1,33 @@
+// Projects page
+.proj-items.full
+{
+  padding: 50px 0px;
+  .layout--twocol-section
+  {
+    flex-direction: row;
+    margin-bottom: 50px;
+    .field--name-field-img{
+      display: flex;
+      img{
+        margin: 0 auto;
+      }
+    }
+    .layout__region--second{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      section{
+        align-self: center;
+        font-size: 50px;
+      }
+      .block-field-blocknodeproj-itemsfield-term{
+        font-size: 30px;
+      }
+    }
+  }
+  .layout--onecol{
+    .block-field-blocknodeproj-itemsfield-txt{
+      font-size: 20px;
+    }
+  }
+}

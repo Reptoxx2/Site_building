@@ -1,0 +1,23 @@
+// Search-form
+#search-form
+{
+  padding-top: 50px;
+  .input-group{
+    input{
+      border-radius: 0;
+      background: transparent;
+      box-shadow: unset;
+    }
+    span{
+      button{
+        border-radius: 0;
+        border: 1px solid $grey;;
+        color: $grey;
+        background: transparent;
+      }
+    }
+  }
+  #edit-help-link{
+    display: none;
+  }
+}

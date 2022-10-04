@@ -1,0 +1,31 @@
+// service page
+.services-page.full{
+  padding: 50px 0;
+  .layout__region--first
+  {
+    display: flex;
+    .block-field-blocknodeservices-pagefield-sp-img
+    {
+      align-self: center;
+      margin: 0 auto;
+    }
+  }
+  .layout--twocol-section{
+    .layout__region--second
+    {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .field--name-field-sp-title
+      {
+        font-size: 50px;
+        text-align: center;
+      }
+      .block-field-blocknodeservices-pagefield-sp-text
+      {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+}

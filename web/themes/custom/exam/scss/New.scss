@@ -1,0 +1,41 @@
+// New
+.new.full{
+  padding: 50px 0px;
+  .layout__region--first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .block-field-blocknodenewfield-new-writer{
+      font-size: 40px;
+      align-self: center;
+    }
+    .block-field-blocknodenewfield-new-img
+    {
+      img{
+        align-self: center;
+        margin: 0 auto;
+      }
+    }
+    .block-field-blocknodenewfield-new-term{
+      align-self: center;
+      font-size: 20px;
+    }
+  }
+  .layout__region--second{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    .block-field-blocknodenewcreated{
+      font-size: 20px;
+      color: $grey;
+      align-self: flex-end;
+    }
+    .field--name-field-new-title{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .field--name-field-new-body{
+      font-size: 20px;
+    }
+  }
+}
